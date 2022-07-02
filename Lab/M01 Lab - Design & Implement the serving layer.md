@@ -61,19 +61,19 @@ In this task, you create a star schema in Azure Synapse dedicated pool. The firs
 
 2. Open the resource group for this lab, then select the **Synapse workspace**.
 
-    ![The workspace is highlighted in the resource group.](data/images/rg-synapse-workspace.png "Synapse workspace")
+    ![The workspace is highlighted in the resource group.](./data/images/rg-synapse-workspace.png "Synapse workspace")
 
 3. In your Synapse workspace Overview blade, select the **Open** link within `Open Synapse Studio`.
 
-    ![The Open link is highlighted.](data/images/open-synapse-studio.png "Open Synapse Studio")
+    ![The Open link is highlighted.](./data/images/open-synapse-studio.png "Open Synapse Studio")
 
 4. In Synapse Studio, navigate to the **Data** hub.
 
-    ![Data hub.](media/data-hub.png "Data hub")
+    ![Data hub.](./data/images/data-hub.png "Data hub")
 
 5. Select the **Workspace** tab **(1)**, expand Databases, then right-click on **SQLPool01 (2)**. Select **New SQL script (3)**, then select **Empty script (4)**.
 
-    ![The data hub is displayed with the context menus to create a new SQL script.](media/new-sql-script.png "New SQL script")
+    ![The data hub is displayed with the context menus to create a new SQL script.](./data/images/new-sql-script.png "New SQL script")
 
 6. Paste the following script into the empty script window, then select **Run** or hit `F5` to execute the query. You may notice some changes have been made to the original SQL star schema create script. A few notable changes are:
     - Distribution setting has been added to each table
@@ -412,7 +412,7 @@ In this task, you load the Synapse dimension and fact tables with data from a pu
 
     You should see an output similar to the following:
 
-    ![The reseller query results are displayed.](data/images/reseller-query-results-synapse.png "Reseller query results")
+    ![The reseller query results are displayed.](./data/images/reseller-query-results-synapse.png "Reseller query results")
 
 2. Replace **and execute** the query with the following to limit the results to October sales between the 2012 and 2013 fiscal years:
 
@@ -450,6 +450,6 @@ In this task, you load the Synapse dimension and fact tables with data from a pu
 
     You should see an output similar to the following:
 
-    ![The query results are displayed in a table.]data/images/reseller-query-results-date-filter-synapse.png "Reseller query results with date filter")
+    ![The query results are displayed in a table.](./data/images/reseller-query-results-date-filter-synapse.png "Reseller query results with date filter")
 
     > Notice how using the **time dimension table** makes filtering by specific date parts and logical dates (such as fiscal year) easier and more performant than calculating date functions on the fly.
