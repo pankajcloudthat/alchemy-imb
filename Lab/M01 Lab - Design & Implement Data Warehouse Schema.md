@@ -1,3 +1,5 @@
+# Module 1 - Design and Implement the serving layer
+
 ### Lab setup and pre-requisites
 Before starting this lab, ensure you have successfully completed the setup steps to create your lab environment. 
 
