@@ -61,7 +61,7 @@ In this task, you create a star schema in Azure Synapse dedicated pool. The firs
 
 2. Open the resource group for this lab, then select the **Synapse workspace**.
 
-    ![The workspace is highlighted in the resource group.](./data/images/rg-synapse-workspace.png "Synapse workspace")
+    ![The workspace is highlighted in the resource group.](../data/images/rg-synapse-workspace.png "Synapse workspace")
 
 3. In your Synapse workspace Overview blade, select the **Open** link within `Open Synapse Studio`.
 
