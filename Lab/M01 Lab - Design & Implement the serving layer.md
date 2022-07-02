@@ -26,6 +26,12 @@ Then complete the following setup tasks to create a dedicated SQL pool.
 
 > **Important:** Once started, a dedicated SQL pool consumes credits in your Azure subscription until it is paused. If you take a break from this lab, or decide not to complete it; follow the instructions at the end of the lab to **pause your SQL pool**
 
+### Task 2: Upload CSV file to Data Lake Storage account
+
+1. ![The manage hub is highlighted.](../data/images/-000115.png "New container")
+2. ![The manage hub is highlighted.](../data/images/Alchemy - Word-000117.png "New dedicated SQL pool")
+3. ![The manage hub is highlighted.](../data/images/Upload blob - Microsoft Azure-000118.png "New dedicated SQL pool")
+4. Click on upload
 
 ## Exercise 1: Implementing a Star Schema
 
