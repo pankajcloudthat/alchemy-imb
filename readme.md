@@ -1,1 +1,1 @@
-Alchemy - IBM
+Synape Lab Instructions
