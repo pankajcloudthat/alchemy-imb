@@ -33,10 +33,10 @@ Then complete the following setup tasks to create a dedicated SQL pool.
     ![The manage hub is highlighted.](../data/images/-000115.png "New container")
 
 2. Step 2
-    ![Create directory](../data/images/Alchemy - Word-000117.png)
+    ![Create directory](../data/images/Alchemy-Word-000117.png)
 
 3. Step 3
-    ![Upload blob.](../data/images/Upload blob - Microsoft Azure-000118.png)
+    ![Upload blob.](../data/images/Uploadblob-MicrosoftAzure-000118.png)
 
 4. Click on upload
 
