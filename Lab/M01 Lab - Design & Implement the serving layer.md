@@ -1251,7 +1251,7 @@ In this task, you load the Synapse dimension and fact tables with data from a pu
 
     ```sql
     COPY INTO [dbo].[DimProduct]
-    FROM 'https://solliancepublicdata.blob.core.windows.net/dataengineering/dp-203/awdata/DimProduct.csv'
+    FROM 'https://<storage-account-name>.dfs.core.windows.net/data/awdata/DimProduct.csv'
     WITH (
         FILE_TYPE='CSV',
         FIELDTERMINATOR='|',
@@ -1262,7 +1262,7 @@ In this task, you load the Synapse dimension and fact tables with data from a pu
     GO
 
     COPY INTO [dbo].[DimReseller]
-    FROM 'https://solliancepublicdata.blob.core.windows.net/dataengineering/dp-203/awdata/DimReseller.csv'
+    FROM 'https://<storage-account-name>.dfs.core.windows.net/data/awdata/DimReseller.csv'
     WITH (
         FILE_TYPE='CSV',
         FIELDTERMINATOR='|',
@@ -1273,7 +1273,7 @@ In this task, you load the Synapse dimension and fact tables with data from a pu
     GO
 
     COPY INTO [dbo].[DimEmployee]
-    FROM 'https://solliancepublicdata.blob.core.windows.net/dataengineering/dp-203/awdata/DimEmployee.csv'
+    FROM 'https://<storage-account-name>.dfs.core.windows.net/data/awdata/DimEmployee.csv'
     WITH (
         FILE_TYPE='CSV',
         FIELDTERMINATOR='|',
@@ -1284,7 +1284,7 @@ In this task, you load the Synapse dimension and fact tables with data from a pu
     GO
 
     COPY INTO [dbo].[DimGeography]
-    FROM 'https://solliancepublicdata.blob.core.windows.net/dataengineering/dp-203/awdata/DimGeography.csv'
+    FROM 'https://<storage-account-name>.dfs.core.windows.net/data/awdata/DimGeography.csv'
     WITH (
         FILE_TYPE='CSV',
         FIELDTERMINATOR='|',
@@ -1295,7 +1295,7 @@ In this task, you load the Synapse dimension and fact tables with data from a pu
     GO
 
     COPY INTO [dbo].[FactResellerSales]
-    FROM 'https://solliancepublicdata.blob.core.windows.net/dataengineering/dp-203/awdata/FactResellerSales.csv'
+    FROM 'https://<storage-account-name>.dfs.core.windows.net/data/awdata/FactResellerSales.csv'
     WITH (
         FILE_TYPE='CSV',
         FIELDTERMINATOR='|',
@@ -1310,7 +1310,7 @@ In this task, you load the Synapse dimension and fact tables with data from a pu
 
     ```sql
     COPY INTO [dbo].[DimDate]
-    FROM 'https://solliancepublicdata.blob.core.windows.net/dataengineering/dp-203/awdata/DimDate.csv'
+    FROM 'https://<storage-account-name>.dfs.core.windows.net/data/awdata/awdata/DimDate.csv'
     WITH (
         FILE_TYPE='CSV',
         FIELDTERMINATOR='|',
