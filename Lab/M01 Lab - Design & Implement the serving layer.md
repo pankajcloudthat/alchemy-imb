@@ -125,7 +125,7 @@ In this task, you create a star schema in SQL database, using foreign key constr
 
 5. Select **Servers** on the left-hand menu, then click **Add Connection**.
 
-    ![The add connection button is highlighted in Azure Data Studio.]../data/images/ads-add-connection-button.png "Add Connection")
+    ![The add connection button is highlighted in Azure Data Studio.](../data/images/ads-add-connection-button.png "Add Connection")
 
 6. In the Connection Details form, provide the following information:
 
@@ -136,13 +136,13 @@ In this task, you create a star schema in SQL database, using foreign key constr
     - **Remember password**: Checked.
     - **Database**: Select `SourceDB`.
 
-    ![The connection details are completed as described.](media/ads-add-connection.png "Connection Details")
+    ![The connection details are completed as described.](../data/images//ads-add-connection.png "Connection Details")
 
 7. Select **Connect**.
 
 8. Select **Servers** in the left-hand menu, then right-click the SQL server you added at the beginning of the lab. Select **New Query**.
 
-    ![The New Query link is highlighted.](media/ads-new-query.png "New Query")
+    ![The New Query link is highlighted.](../data/images//ads-new-query.png "New Query")
 
 9. Paste the following into the query window to create the dimension and fact tables:
 
@@ -280,11 +280,11 @@ In this task, you create a star schema in SQL database, using foreign key constr
 
 10. Select **Run** or hit `F5` to execute the query.
 
-    ![The query and Run button are highlighted.](media/execute-setup-query.png "Execute query")
+    ![The query and Run button are highlighted.](../data/images/execute-setup-query.png "Execute query")
 
     Now we have three dimension tables and a fact table. Together, these tables represent a star schema:
 
-    ![The four tables are displayed.](media/star-schema-no-relationships.png "Star schema: no relationships")
+    ![The four tables are displayed.](../data/images/star-schema-no-relationships.png "Star schema: no relationships")
 
     However, since we are using a SQL database, we can add foreign key relationships and constraints to define relationships and enforce the table values.
 
@@ -373,7 +373,7 @@ A **snowflake schema** is a set of normalized tables for a single business entit
 
 The snowflake schema is a variation of the star schema. You add normalized dimension tables to a star schema to create a snowflake pattern. In the following diagram, you see the yellow dimension tables surrounding the blue fact table. Notice that many of the dimension tables relate to one another in order to normalize the business entities:
 
-![Sample snowflake schema.](media/snowflake-schema.png "Snowflake schema")
+![Sample snowflake schema.](../data/images/snowflake-schema.png "Snowflake schema")
 
 ### Task 1: Create product snowflake schema in SQL database
 
@@ -383,7 +383,7 @@ In this task, you add two new dimension tables: `DimProductCategory` and `DimPro
 
 2. Select **Servers** in the left-hand menu, then right-click the SQL server you added at the beginning of the lab. Select **New Query**.
 
-    ![The New Query link is highlighted.](media/ads-new-query.png "New Query")
+    ![The New Query link is highlighted.](../data/images/ads-new-query.png "New Query")
 
 3. Paste **and execute** the following into the query window to create the new dimension tables:
 
@@ -929,7 +929,7 @@ In this task, you load the dimension and fact tables with data from a public dat
 
     You should see an output similar to the following:
 
-    ![The reseller query results are displayed.](media/reseller-query-results.png "Reseller query results")
+    ![The reseller query results are displayed.](../data/images/reseller-query-results.png "Reseller query results")
 
 2. Replace **and execute** the query with the following to limit the results to October sales between the 2012 and 2013 fiscal years:
 
@@ -974,7 +974,7 @@ In this task, you load the dimension and fact tables with data from a public dat
 
     You should see an output similar to the following:
 
-    ![The query results are displayed in a table.](media/reseller-query-results-date-filter.png "Reseller query results with date filter")
+    ![The query results are displayed in a table.](../data/images/reseller-query-results-date-filter.png "Reseller query results with date filter")
 
     > Notice how using the **time dimension table** makes filtering by specific date parts and logical dates (such as fiscal year) easier and more performant than calculating date functions on the fly.
 
