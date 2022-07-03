@@ -38,7 +38,7 @@ Then complete the following setup tasks to create a dedicated SQL pool.
 3. Step 3
     ![Upload blob.](../data/images/Uploadblob-MicrosoftAzure-000118.png)
 
-4. Click on upload
+4. Download awdata file and upload to the awdata directory [Click here to download](https://github.com/pankajcloudthat/alchemy-imb/tree/main/data/awdata) and then Click on upload
 
 ## Exercise 1: Implementing a Star Schema
 
