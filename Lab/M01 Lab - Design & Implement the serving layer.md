@@ -125,7 +125,7 @@ In this task, you create a star schema in SQL database, using foreign key constr
 
 5. Select **Servers** on the left-hand menu, then click **Add Connection**.
 
-    ![The add connection button is highlighted in Azure Data Studio.]../data/images/ads-add-connection-button.png "Add Connection")
+    ![The add connection button is highlighted in Azure Data Studio.](../data/images/ads-add-connection-button.png "Add Connection")
 
 6. In the Connection Details form, provide the following information:
 
@@ -136,13 +136,13 @@ In this task, you create a star schema in SQL database, using foreign key constr
     - **Remember password**: Checked.
     - **Database**: Select `SourceDB`.
 
-    ![The connection details are completed as described.](media/ads-add-connection.png "Connection Details")
+    ![The connection details are completed as described.](../data/images//ads-add-connection.png "Connection Details")
 
 7. Select **Connect**.
 
 8. Select **Servers** in the left-hand menu, then right-click the SQL server you added at the beginning of the lab. Select **New Query**.
 
-    ![The New Query link is highlighted.](media/ads-new-query.png "New Query")
+    ![The New Query link is highlighted.](../data/images//ads-new-query.png "New Query")
 
 9. Paste the following into the query window to create the dimension and fact tables:
 
