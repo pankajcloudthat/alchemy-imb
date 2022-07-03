@@ -28,11 +28,15 @@ Then complete the following setup tasks to create a dedicated SQL pool.
 
 ### Task 2: Upload CSV file to Data Lake Storage account
 
-1. ![The manage hub is highlighted.](../data/images/-000115.png "New container")
+1. Step 1
 
-2. ![Alchemy.](../data/images/Alchemy - Word-000117.png "Alchemy - Word")
+    ![The manage hub is highlighted.](../data/images/-000115.png "New container")
 
-3. ![Upload blob.](../data/images/Upload blob - Microsoft Azure-000118.png "Upload blob")
+2. Step 2
+    ![Alchemy.](../data/images/Alchemy - Word-000117.png "Alchemy - Word")
+
+3. Step 3
+    ![Upload blob.](../data/images/Upload blob - Microsoft Azure-000118.png "Upload blob")
 
 4. Click on upload
 
