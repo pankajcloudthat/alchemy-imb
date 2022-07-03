@@ -62,7 +62,7 @@ Then complete the following setup tasks to create a dedicated SQL pool.
         ![Click on Compute '= Storage configure option](../data/images/CreateSQLDatabase-MicrosoftAzure-000123.png)
         
         Step 2:
-        ![Creating a server instance in the Azure portal](../data/images/Create SQLDatabase-MicrosoftAzure000124.png)
+        ![Creating a server instance in the Azure portal](../data/images/CreateSQLDatabase-MicrosoftAzure000124.png)
         
         Step 3:
         ![Creating a server instance in the Azure portal](../data/images/ConfigureMicrosoftAzure-000125.png)
