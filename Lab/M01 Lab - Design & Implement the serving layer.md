@@ -280,11 +280,11 @@ In this task, you create a star schema in SQL database, using foreign key constr
 
 10. Select **Run** or hit `F5` to execute the query.
 
-    ![The query and Run button are highlighted.](media/execute-setup-query.png "Execute query")
+    ![The query and Run button are highlighted.](../data/images/execute-setup-query.png "Execute query")
 
     Now we have three dimension tables and a fact table. Together, these tables represent a star schema:
 
-    ![The four tables are displayed.](media/star-schema-no-relationships.png "Star schema: no relationships")
+    ![The four tables are displayed.](../data/images/star-schema-no-relationships.png "Star schema: no relationships")
 
     However, since we are using a SQL database, we can add foreign key relationships and constraints to define relationships and enforce the table values.
 
