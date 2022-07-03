@@ -373,7 +373,7 @@ A **snowflake schema** is a set of normalized tables for a single business entit
 
 The snowflake schema is a variation of the star schema. You add normalized dimension tables to a star schema to create a snowflake pattern. In the following diagram, you see the yellow dimension tables surrounding the blue fact table. Notice that many of the dimension tables relate to one another in order to normalize the business entities:
 
-![Sample snowflake schema.](media/snowflake-schema.png "Snowflake schema")
+![Sample snowflake schema.](../data/images/snowflake-schema.png "Snowflake schema")
 
 ### Task 1: Create product snowflake schema in SQL database
 
@@ -383,7 +383,7 @@ In this task, you add two new dimension tables: `DimProductCategory` and `DimPro
 
 2. Select **Servers** in the left-hand menu, then right-click the SQL server you added at the beginning of the lab. Select **New Query**.
 
-    ![The New Query link is highlighted.](media/ads-new-query.png "New Query")
+    ![The New Query link is highlighted.](../data/images/ads-new-query.png "New Query")
 
 3. Paste **and execute** the following into the query window to create the new dimension tables:
 
@@ -929,7 +929,7 @@ In this task, you load the dimension and fact tables with data from a public dat
 
     You should see an output similar to the following:
 
-    ![The reseller query results are displayed.](media/reseller-query-results.png "Reseller query results")
+    ![The reseller query results are displayed.](../data/images/reseller-query-results.png "Reseller query results")
 
 2. Replace **and execute** the query with the following to limit the results to October sales between the 2012 and 2013 fiscal years:
 
@@ -974,7 +974,7 @@ In this task, you load the dimension and fact tables with data from a public dat
 
     You should see an output similar to the following:
 
-    ![The query results are displayed in a table.](media/reseller-query-results-date-filter.png "Reseller query results with date filter")
+    ![The query results are displayed in a table.](../data/images/reseller-query-results-date-filter.png "Reseller query results with date filter")
 
     > Notice how using the **time dimension table** makes filtering by specific date parts and logical dates (such as fiscal year) easier and more performant than calculating date functions on the fly.
 
