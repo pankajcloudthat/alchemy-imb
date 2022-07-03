@@ -763,6 +763,10 @@ You can populate time dimension tables in one of many ways, including T-SQL scri
 
 In this task, you load the dimension and fact tables with data from a public data source.
 
+Generate the SAS Key for the stoage account got asadatalakexxxxx storage account and generate the SAS Key
+
+ ![The SAS Key.](../data/images/Mail-000128.png)
+
 1. Paste **and execute** the following into the query window to create a master key encryption, database scoped credential, and external data source that accesses the public blob storage account that contains the source data:
 
     ```sql
