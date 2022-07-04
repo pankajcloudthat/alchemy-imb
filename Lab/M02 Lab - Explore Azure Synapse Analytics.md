@@ -87,9 +87,7 @@ One of the key tasks you can perform with Azure Synapse Analytics is to define *
 
 ### View the ingested data
 
-1. On the **Data** page, select the **Linked** tab and expand the **Product Files** hierarchy until you see the **files** file storage for your Synapse workspace. Then select the file storage to verify that a folder named **product_data** containing a file named **products.csv** has been copied to this location, as shown here:
-
-    ![Image showing Synapse Studio expanded Azure Data Lake Storage hierarchy with the file storage for your Synapse workspace](../data/images/product_files.png)
+1. On the **Data** page, select the **Linked** tab and expand the **Product Files** hierarchy until you see the **data** file storage for your Synapse workspace. Then select the file storage to verify that a folder named **product_data** containing a file named **products.csv** has been copied to this location.
 
 2. Right-click the **products.csv** data file and select **Preview** to view the ingested data. Then close the preview.
 
