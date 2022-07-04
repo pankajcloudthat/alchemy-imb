@@ -10,7 +10,7 @@ Azure Synapse Analytics provides a single, consolidated data analytics platform 
 2. Select your Synapse workspace, and in its **Overview** page, in the **Open Synapse Studio** card, select **Open** to open Synapse Studio in a new browser tab. Synapse Studio is a web-based interface that you can use to work with your Synapse Analytics workspace.
 3. On the left side of Synapse Studio, use the **&rsaquo;&rsaquo;** icon to expand the menu - this reveals the different pages within Synapse Studio that you'll use to manage resources and perform data analytics tasks, as shown here:
 
-    ![Image showing the expanded Synapse Studio menu to manage resources and perform data analytics tasks](./images/synapse-studio.png)
+    ![Image showing the expanded Synapse Studio menu to manage resources and perform data analytics tasks](../data/images/synapse-studio.png)
 
 4. View the **Data** page, and note that there are two tabs containing data sources:
     - A **Workspace** tab containing databases defined in the workspace (including dedicated SQL databases and Data Explorer databases)
@@ -89,7 +89,7 @@ One of the key tasks you can perform with Azure Synapse Analytics is to define *
 
 1. On the **Data** page, select the **Linked** tab and expand the **Product Files** hierarchy until you see the **files** file storage for your Synapse workspace. Then select the file storage to verify that a folder named **product_data** containing a file named **products.csv** has been copied to this location, as shown here:
 
-    ![Image showing Synapse Studio expanded Azure Data Lake Storage hierarchy with the file storage for your Synapse workspace](./images/product_files.png)
+    ![Image showing Synapse Studio expanded Azure Data Lake Storage hierarchy with the file storage for your Synapse workspace](../data/images/product_files.png)
 
 2. Right-click the **products.csv** data file and select **Preview** to view the ingested data. Then close the preview.
 
@@ -189,7 +189,7 @@ Now that you've ingested some data into your workspace, you can use Synapse Anal
 
     The resulting chart should resemble this:
 
-    ![Image showing the product count chart view](./images/column-chart.png)
+    ![Image showing the product count chart view](../data/images/column-chart.png)
 
 ## Use a Spark pool to analyze data
 
@@ -257,7 +257,7 @@ While SQL is a common language for querying structured datasets, many data analy
 
 11. In the results output for the cell, select the **Chart** view. The resulting chart should resemble this:
 
-    ![Image showing category count chart view](./images/bar-chart.png)
+    ![Image showing category count chart view](../data/images/bar-chart.png)
 
 12. If it is not already visible, show the **Properties** page by selecting the **Properties** button (which looks similar to **&#128463;.**) on the right end of the toolbar. Then in the **Properties** pane, change the notebook name to **Explore products** and use the **Publish** button on the toolbar to save it.
 
