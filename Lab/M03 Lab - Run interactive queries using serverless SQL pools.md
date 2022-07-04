@@ -1,4 +1,4 @@
-# Lab 2 - Run interactive queries using serverless SQL pools
+# Moudle 03 Lab - Run interactive queries using serverless SQL pools
 
 Follow the url mention below and complete the Lab
 
