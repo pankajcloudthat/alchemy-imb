@@ -113,6 +113,8 @@ Generally, dimension tables contain a relatively small number of rows. Fact tabl
 
 ### Task 1: Create star schema in SQL database
 
+Install [Azure Data Studio](https://docs.microsoft.com/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver15) on your computer or lab virtual machine.
+
 In this task, you create a star schema in SQL database, using foreign key constraints. The first step is to create the base dimension and fact tables.
 
 1. Sign in to the Azure portal (<https://portal.azure.com>).
