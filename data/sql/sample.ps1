@@ -7,6 +7,13 @@ Install-Module -Name Az.Synapse -Force
 # Prompt user for a password for the SQL Database
 $sqlUser = "asa.sql.admin"
 
+$suffix = (Get-AzResourceGroup -Name $resourceGroupName).Tags["DeploymentId"]
+$resourceGroupName = "data-engineering-synapse-$suffix"
+$synapseWorkspace = "asaworkspace$suffix"
+$dataLakeAccountName = "asadatalake$suffix"
+$sqlDatabaseName = "SQLPool01"
+$keyVaultName = "asakeyvault$suffix"
+
 $sqlPasswordSecret = Get-AzKeyVaultSecret -VaultName $keyVaultName -Name "SqlPassword"
 $sqlPassword = '';
 $ssPtr = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($sqlPasswordSecret.SecretValue)
@@ -16,12 +23,6 @@ try {
     [System.Runtime.InteropServices.Marshal]::ZeroFreeBSTR($ssPtr)
 }
 $global:sqlPassword = $sqlPassword
-
-$suffix = (Get-AzResourceGroup -Name $resourceGroupName).Tags["DeploymentId"]
-$resourceGroupName = "data-engineering-synapse-$suffix"
-$synapseWorkspace = "asaworkspace$suffix"
-$dataLakeAccountName = "asadatalake$suffix"
-$sqlDatabaseName = "SQLPool01"
 
 # Create database
 write-host "Creating the $sqlDatabaseName database..."
