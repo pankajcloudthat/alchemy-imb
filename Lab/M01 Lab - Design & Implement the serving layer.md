@@ -54,7 +54,7 @@ Then complete the following setup tasks to create a dedicated SQL pool.
     
         - **Subscription**: the name of the subscription you are using in this lab
 
-        - **Resource group**: **awrgstudxx**, where **xx** are your initials.
+        - **Resource group**: **data-engineering-synapse-xxxxx**.
         
         - **Cmpute + Storage**: Select Standard Service Tier
         
@@ -83,11 +83,11 @@ Then complete the following setup tasks to create a dedicated SQL pool.
         - Database name: type in **AdventureworksLT**
      
         - Server: Create a new server by clicking **Create new** with the following settings and click on **OK**:
-            - **Server name**: **sqlservicexx**, where **xx** are your initials
-            - **Server admin login**: **xxsqladmin**, where **xx** are your initials
+            - **Server name**: **sqlservicexxxxx**, where **xxxxx** are your unique suffix
+            - **Server admin login**: **sqladmin**
             - **Password**: **Pa55w.rd**
             - **Confirm Password**: **Pa55w.rd**
-            - **Location**: choose a **location** near to you.
+            - **Location**: choose a **location** near as your **data-engineering-synapse-xxxxx** resource group.
             - click on **OK**
             - Leave the remaining settings to their defaults, and then click on **OK**
 

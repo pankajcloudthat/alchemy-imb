@@ -7,7 +7,10 @@ Install-Module -Name Az.Synapse -Force
 # Prompt user for a password for the SQL Database
 $sqlUser = "asa.sql.admin"
 
-$suffix = (Get-AzResourceGroup -Name $resourceGroupName).Tags["DeploymentId"]
+# Prompt user for a unique suffix
+write-host ""
+$suffix = ""
+
 $resourceGroupName = "data-engineering-synapse-$suffix"
 $synapseWorkspace = "asaworkspace$suffix"
 $dataLakeAccountName = "asadatalake$suffix"
