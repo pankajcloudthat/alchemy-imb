@@ -55,6 +55,20 @@ Then complete the following setup tasks to create a dedicated SQL pool.
         - **Subscription**: the name of the subscription you are using in this lab
 
         - **Resource group**: **data-engineering-synapse-xxxxx**.
+		- Click the **Basics** tab once this has been done.
+    
+    - In the Database details section, type in the following information
+    
+        - Database name: type in **AdventureworksLT**
+     
+        - Server: Create a new server by clicking **Create new** with the following settings and click on **OK**:
+            - **Server name**: **sqlservicexxxxx**, where **xxxxx** are your unique suffix
+            - **Server admin login**: **sqladmin**
+            - **Password**: **Pa55w.rd**
+            - **Confirm Password**: **Pa55w.rd**
+            - **Location**: choose a **location** near as your **data-engineering-synapse-xxxxx** resource group.
+            - click on **OK**
+            - Leave the remaining settings to their defaults, and then click on **OK**
         
         - **Cmpute + Storage**: Select Standard Service Tier
         
@@ -76,20 +90,6 @@ Then complete the following setup tasks to create a dedicated SQL pool.
 
     - Click on the  **Additional setting** tab, click **Sample** . The AdventureworksLT sample database is selected automatically. 
     
-    - Click the **Basics** tab once this has been done.
-    
-    - In the Database details section, type in the following information
-    
-        - Database name: type in **AdventureworksLT**
-     
-        - Server: Create a new server by clicking **Create new** with the following settings and click on **OK**:
-            - **Server name**: **sqlservicexxxxx**, where **xxxxx** are your unique suffix
-            - **Server admin login**: **sqladmin**
-            - **Password**: **Pa55w.rd**
-            - **Confirm Password**: **Pa55w.rd**
-            - **Location**: choose a **location** near as your **data-engineering-synapse-xxxxx** resource group.
-            - click on **OK**
-            - Leave the remaining settings to their defaults, and then click on **OK**
 
 5. In the **Create SQL Database** blade, click **Review + create**.
 
