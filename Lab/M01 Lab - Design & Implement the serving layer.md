@@ -776,6 +776,12 @@ Generate the SAS Key for the stoage account got asadatalakexxxxx storage account
 
 1. Paste **and execute** the following into the query window to create a master key encryption, database scoped credential, and external data source that accesses the public blob storage account that contains the source data:
 
+	When the TYPE = BLOB_STORAGE, the credential must be created using SHARED ACCESS SIGNATURE as the identity. Furthermore, the SAS token should be configured as follows:
+	- Exclude the leading ? when configured as the secret
+	- Have at least read permission on the file that should be loaded (for example srt=o&sp=r)
+	- Use a valid expiration period (all dates are in UTC time).
+	- TYPE = BLOB_STORAGE is only permitted for bulk operations; you cannot create external tables for an external data source with TYPE = BLOB_STORAGE.
+	
     ```sql
     IF NOT EXISTS (SELECT * FROM sys.symmetric_keys) BEGIN
         declare @pasword nvarchar(400) = CAST(newid() as VARCHAR(400));
@@ -790,7 +796,7 @@ Generate the SAS Key for the stoage account got asadatalakexxxxx storage account
     -- Create external data source secured using credential
     CREATE EXTERNAL DATA SOURCE PublicDataSource WITH (
         TYPE = BLOB_STORAGE,
-        LOCATION = 'https://<storage-account-name>.dfs.core.windows.net/data',
+        LOCATION = 'https://<storage-account-name>.blob.core.windows.net/data',
         CREDENTIAL = dataengineering
     );
     GO
