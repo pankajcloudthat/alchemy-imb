@@ -87,10 +87,16 @@ Then complete the following setup tasks to create a dedicated SQL pool.
         
         ![Creating a server instance in the Azure portal](../data/images/Configure-MicrosoftAzure-000126.png)
 
+	- In the **Networking tab**
+
+		![Click on Compute + Storage configure option](../data/images/Window-000129.png)
+	
     - Click on the  **Additional setting** tab, click **Sample** . The AdventureworksLT sample database is selected automatically. 
     
+		![Click on Compute + Storage configure option](../data/images/Window-000130.png)
 
 5. In the **Create SQL Database** blade, click **Review + create**.
+
 
 6. After the validation of the **Create SQL Database*** blade, click **Create**.
 
