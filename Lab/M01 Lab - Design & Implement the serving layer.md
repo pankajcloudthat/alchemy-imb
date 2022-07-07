@@ -141,7 +141,7 @@ In this task, you create a star schema in SQL database, using foreign key constr
     - **User name**: Enter `sqladmin`.
     - **Password**: Enter the password you supplied when deploying the lab environment, or which was provided to you as part of your hosted lab environment.
     - **Remember password**: Checked.
-    - **Database**: Select `SourceDB`.
+    - **Database**: Select `AdventureworksLT`.
 
     ![The connection details are completed as described.](../data/images//ads-add-connection.png "Connection Details")
 
