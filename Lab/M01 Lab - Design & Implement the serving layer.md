@@ -55,7 +55,6 @@ Then complete the following setup tasks to create a dedicated SQL pool.
         - **Subscription**: the name of the subscription you are using in this lab
 
         - **Resource group**: **data-engineering-synapse-xxxxx**.
-		- Click the **Basics** tab once this has been done.
     
     - In the Database details section, type in the following information
     
